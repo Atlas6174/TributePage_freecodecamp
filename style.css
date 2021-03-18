@@ -1,0 +1,66 @@
+body {
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+#main {
+    margin: 0.5rem auto;
+    padding: 0;
+    max-width: 1200px;
+}
+
+/*STYLES FOR TITLES*/
+
+#header-container {
+    background-color: rgb(177, 204, 216);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+#header-container h1, #header-container p {
+    margin: 0.3rem 0;
+}
+
+/*IMAGE STYLES*/
+#img-div {
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    border: 1px solid;
+    border-radius: 0.3rem;
+}
+
+#image {
+    display: block;
+    width: 80%;
+    max-width: 478px;
+    margin: 0 auto;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+/*INFORMATION BLOCK*/
+#tribute-info h2 {
+    background-color: rgb(177, 204, 216);
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+#tribute-info article {
+    padding: 0.3rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid;
+    border-radius: 0.3rem;
+}
+
+blockquote {
+    padding: 0.3rem 2rem;
+    margin: 0.5rem 0;
+    border: 1px solid;
+    border-radius: 0.3rem;
+}
